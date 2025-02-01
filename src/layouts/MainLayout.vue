@@ -41,7 +41,7 @@ export default defineComponent({
 <style lang="scss">
 .main-layout {
   .q-toolbar {
-    padding: 0.875rem 10%;
+    padding: 0.875rem 5%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #fff;
     @media (max-width: 768px) {
