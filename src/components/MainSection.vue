@@ -19,7 +19,7 @@
         <div class="flex flex-center external-link-btn">
           <a
             class="flex flex-center"
-            href="https://dev.rivens.ai/agent/e9f26399-2c9e-4550-ad6c-d2cfd6913aa0"
+            href="https://dev.rivens.ai/agent/ca18e044-6fb0-47be-bc69-44610fc560e4"
             target="_blank"
             >BUY $LCC</a
           >
