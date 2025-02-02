@@ -7,8 +7,12 @@
           LCC
         </div>
         <div class="flex flex-center launch-bot-btn">
-          Launch
-          <img src="/icons/download.svg" style="margin-left: 0.5rem" />
+          <a
+            class="flex flex-center"
+            href="https://dev.rivens.ai/agent/e9f26399-2c9e-4550-ad6c-d2cfd6913aa0"
+            target="_blank"
+            >Launch <img src="/icons/download.svg" style="margin-left: 0.5rem"
+          /></a>
         </div>
       </q-toolbar>
     </q-header>
@@ -26,8 +30,8 @@
         </div>
         <div class="row justify-between" style="margin-top: 4.875rem">
           <div class="column" style="gap: 0.5rem">
-            <router-link to="/privacy-policy">Privacy Policy</router-link>
-            <router-link to="/terms">Terms of Use</router-link>
+            <router-link to="/">Privacy Policy</router-link>
+            <router-link to="/">Terms of Use</router-link>
           </div>
           <div>Crypto Consult © 2025</div>
         </div>
@@ -71,14 +75,21 @@ export default defineComponent({
 
     .launch-bot-btn {
       color: #fff;
-      padding: 0.875rem 1.875rem;
       background-color: #000;
       border-radius: 0.625rem;
-      font-size: 0.875rem;
-      font-weight: 600;
-      line-height: 1.25rem;
+
       height: 3rem;
-      cursor: pointer;
+      a {
+        width: 100%;
+        height: 100%;
+        padding: 0 1rem;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 0.875rem;
+        font-weight: 600;
+        line-height: 1.25rem;
+      }
     }
   }
   .q-footer {

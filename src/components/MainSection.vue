@@ -8,11 +8,21 @@
       <div class="row no-wrap items-center main-section-content-buttons">
         <div class="flex flex-center external-link-btn">
           <a class="flex flex-center" href="https://x.com/LCC_AI" target="_blank">
-            <img src="/icons/twitter-icon.svg" alt="X logo" />
+            Open chat
+            <img
+              src="/icons/twitter-icon.svg"
+              alt="X logo"
+              style="margin-left: 0.5rem; height: 1.5rem"
+            />
           </a>
         </div>
         <div class="flex flex-center external-link-btn">
-          <a class="flex flex-center" href="https://dev.rivens.ai/" target="_blank">Rivens</a>
+          <a
+            class="flex flex-center"
+            href="https://dev.rivens.ai/agent/e9f26399-2c9e-4550-ad6c-d2cfd6913aa0"
+            target="_blank"
+            >Rivens</a
+          >
         </div>
       </div>
     </div>
@@ -82,7 +92,7 @@ export default defineComponent({
           color: #fff;
           text-decoration: none;
           text-align: center;
-          font-size: 2rem;
+          font-size: 1.75rem;
           line-height: 2.5rem;
           letter-spacing: -0.06rem;
           font-weight: 400;
