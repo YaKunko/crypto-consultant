@@ -21,7 +21,7 @@
             class="flex flex-center"
             href="https://dev.rivens.ai/agent/e9f26399-2c9e-4550-ad6c-d2cfd6913aa0"
             target="_blank"
-            >Rivens</a
+            >BUY $LCC</a
           >
         </div>
       </div>
@@ -55,25 +55,26 @@ export default defineComponent({
     max-width: 100%;
 
     .main-section-content-title {
+      font-family: 'Metrophobic', sans-serif;
       max-width: 100%;
       font-size: 3rem;
       line-height: 3rem;
-      font-weight: 500;
+      font-weight: normal;
       letter-spacing: -0.06rem;
       color: #000;
     }
     .main-section-content-description {
-      font-family: 'Kanit', sans-serif;
+      font-family: 'Metrophobic', sans-serif;
       margin-top: 1.5rem;
       font-size: 1.5rem;
       line-height: 2rem;
-      font-weight: 500;
+      font-weight: normal;
       color: rgba(0, 0, 0, 0.6);
       max-width: 80%;
     }
     .main-section-content-buttons {
       max-width: 100%;
-      margin-top: 2rem;
+      margin-top: 4rem;
       gap: 2rem;
       .external-link-btn {
         color: #fff;
