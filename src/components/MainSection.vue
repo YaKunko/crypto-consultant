@@ -7,7 +7,7 @@
       </div>
       <div class="row no-wrap items-center main-section-content-buttons">
         <div class="flex flex-center external-link-btn">
-          <a class="flex flex-center" style="padding: 0" href="https://x.com" target="_blank">
+          <a class="flex flex-center" href="https://x.com/LCC_AI" target="_blank">
             <img src="/icons/twitter-icon.svg" alt="X logo" />
           </a>
         </div>
@@ -31,18 +31,13 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'MainSection',
-
-  data() {
-    return {
-      clickCount: 0,
-    }
-  },
 })
 </script>
 
 <style lang="scss">
 .main-section {
   padding: 0 5%;
+  height: 100dvh;
   @media (max-width: 768px) {
     padding: 0 0.5rem;
   }
@@ -83,9 +78,14 @@ export default defineComponent({
         a {
           width: 100%;
           height: 100%;
-          padding: 0.875rem 1.875rem;
+          padding: 0 0.5em;
           color: #fff;
           text-decoration: none;
+          text-align: center;
+          font-size: 2rem;
+          line-height: 2.5rem;
+          letter-spacing: -0.06rem;
+          font-weight: 400;
         }
       }
     }
