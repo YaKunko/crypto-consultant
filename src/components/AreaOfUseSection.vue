@@ -9,7 +9,7 @@
       <div class="line line-right"></div>
     </div>
     <div class="row boxes-container">
-      <div class="col-4 box box-left">Token trading learning</div>
+      <div class="col-4 box box-left">Understanding regulation protocols</div>
       <div class="col-4 box box-middle">Country and region crypto policy analysis</div>
       <div class="col-4 box box-right">Crypto tax consultation</div>
     </div>

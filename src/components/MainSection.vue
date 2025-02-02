@@ -1,6 +1,6 @@
 <template>
   <div class="row flex-center main-section">
-    <div class="col-6 column main-section-content">
+    <q-intersection class="col-6 column main-section-content" transition="fade" once>
       <div class="main-section-content-title">Legal Crypto Consultant</div>
       <div class="main-section-content-description">
         Your AI consultant in the world of crypto regulation and taxation.
@@ -25,14 +25,15 @@
           >
         </div>
       </div>
-    </div>
-    <div class="col main-section-content-image">
+    </q-intersection>
+
+    <q-intersection class="col main-section-content-image" transition="fade" once>
       <img
         src="/images/crypto-consult.png"
         alt="Main Section Image"
         style="max-width: 100%; width: 30rem"
       />
-    </div>
+    </q-intersection>
   </div>
 </template>
 
