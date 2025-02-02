@@ -7,7 +7,7 @@
       </div>
       <div class="row no-wrap items-center main-section-content-buttons">
         <div class="flex flex-center external-link-btn">
-          <a class="flex flex-center" href="https://x.com/LCC_AI" target="_blank">
+          <a class="flex flex-center" href="https://x.com/AI_LCC" target="_blank">
             Open chat
             <img
               src="/icons/twitter-icon.svg"

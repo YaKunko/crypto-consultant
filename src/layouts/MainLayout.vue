@@ -7,10 +7,7 @@
           LCC
         </div>
         <div class="flex flex-center launch-bot-btn">
-          <a
-            class="flex flex-center"
-            href="https://dev.rivens.ai/agent/e9f26399-2c9e-4550-ad6c-d2cfd6913aa0"
-            target="_blank"
+          <a class="flex flex-center" href="https://x.com/AI_LCC" target="_blank"
             >Launch <img src="/icons/download.svg" style="margin-left: 0.5rem"
           /></a>
         </div>
